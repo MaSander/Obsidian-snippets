@@ -1,17 +1,10 @@
-/* ATENÇÃO PLENA: Foco e Presença */
 .theme-dark {
-    --background-primary: #0a1128;      /* Deep Navy */
-    --background-primary-alt: #050a1a;
-    --text-normal: #cfd8dc;             /* Soft Grey */
-    --text-muted: #78909c;
-    --text-accent: #64ffda;
+    --background-primary: #0a1128;
+    --background-secondary: #050a1a;    /* Sidebar */
+    --text-normal: #cfd8dc;
+    --nav-item-color: #78909c;
 }
-.view-content {
-    --font-text: 'JetBrains Mono', 'Fira Code', monospace;
-    --font-editor: 'JetBrains Mono', 'Fira Code', monospace;
-}
-.markdown-source-view.mod-cm6 .cm-content {
-    max-width: 750px;
-    margin: 0 auto;
-    line-height: 1.7;
+.view-content, .nav-files-container {
+    --font-text: 'JetBrains Mono', monospace;
+    --font-interface: 'JetBrains Mono', monospace;
 }

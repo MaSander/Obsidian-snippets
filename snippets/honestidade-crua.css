@@ -1,17 +1,10 @@
-/* HONESTIDADE CRUA: O Texto como Código */
 .theme-dark {
-    --background-primary: #000000;      /* Pitch Black */
-    --background-primary-alt: #050505;
-    --text-normal: #00ff41;             /* Green Terminal */
-    --text-muted: #008f11;
-    --text-accent: #003b00;
+    --background-primary: #000000;
+    --background-secondary: #050505;    /* Sidebar */
+    --text-normal: #00ff41;
+    --nav-item-color: #008f11;
 }
-.view-content {
-    --font-text: 'Courier New', 'Monaco', monospace;
-    --font-editor: 'Courier New', 'Monaco', monospace;
-}
-.markdown-source-view.mod-cm6 .cm-content {
-    max-width: 100%;                   /* Layout livre para expansão mental */
-    padding: 3rem;
-    line-height: 1.5;
+.view-content, .nav-files-container {
+    --font-text: 'Courier New', monospace;
+    --font-interface: 'Courier New', monospace;
 }
