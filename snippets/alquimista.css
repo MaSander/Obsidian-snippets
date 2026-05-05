@@ -1,0 +1,58 @@
+/* 
+ * O ALQUIMISTA: Transmutação de Ideias
+ * Uma estética extravagante focada em síntese criativa e refino de pensamento.
+ */
+
+.theme-dark {
+    --background-primary: #0d0b1a;      /* Roxo Quase Preto */
+    --background-primary-alt: #090812;
+    --text-normal: #d4af37;             /* Dourado Metálico Suave */
+    --text-muted: #8a7b5e;
+    --text-accent: #ffcc00;             /* Ouro Brilhante */
+    --text-title-h1: #ffcc00;
+    --interactive-accent: #ffcc00;
+}
+
+/* Tipografia Mista para Diferenciação Cognitiva */
+.view-content {
+    --font-text: 'Courier New', monospace; /* Crueza do rascunho */
+    --font-editor: 'Courier New', monospace;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Georgia', serif !important; /* Autoridade do título */
+    text-shadow: 0 0 10px rgba(212, 175, 55, 0.3); /* Brilho "Alquímico" */
+    color: var(--text-accent) !important;
+}
+
+/* Elementos Extravagantes mas Úteis */
+
+/* Callouts com efeito de "pergaminho brilhante" */
+.callout {
+    background-color: rgba(212, 175, 55, 0.05);
+    border: 1px solid var(--text-accent);
+    box-shadow: inset 0 0 15px rgba(212, 175, 55, 0.1);
+}
+
+/* Blocos de código como "fórmulas" */
+code {
+    color: #00ffcc !important; /* Contraste Cian para fórmulas/elementos técnicos */
+    background-color: #1a1a1a !important;
+}
+
+/* Checkboxes personalizados */
+.task-list-item-checkbox {
+    filter: sepia(1) saturate(5) hue-rotate(-50deg);
+}
+
+/* Efeito de foco: O parágrafo atual ganha brilho */
+.cm-activeLine {
+    background-color: rgba(212, 175, 55, 0.05) !important;
+    border-left: 2px solid var(--text-accent);
+}
+
+/* Sidebar "Esotérica" */
+.nav-folder-title, .nav-file-title {
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
