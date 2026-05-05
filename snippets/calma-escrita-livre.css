@@ -1,0 +1,17 @@
+/* CALMA E ESCRITA LIVRE: Ambientes Analógicos */
+.theme-dark, .theme-light {
+    --background-primary: #f4ecd8;      /* Sepia */
+    --background-primary-alt: #e8dfc4;
+    --text-normal: #433422;             /* Dark Brown */
+    --text-muted: #8c7b66;
+    --text-accent: #a67c52;
+}
+.view-content {
+    --font-text: 'Baskerville', 'Palatino', serif;
+    --font-editor: 'Baskerville', 'Palatino', serif;
+}
+.markdown-source-view.mod-cm6 .cm-content {
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}

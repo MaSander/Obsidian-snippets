@@ -1,0 +1,17 @@
+/* HONESTIDADE CRUA: O Texto como Código */
+.theme-dark {
+    --background-primary: #000000;      /* Pitch Black */
+    --background-primary-alt: #050505;
+    --text-normal: #00ff41;             /* Green Terminal */
+    --text-muted: #008f11;
+    --text-accent: #003b00;
+}
+.view-content {
+    --font-text: 'Courier New', 'Monaco', monospace;
+    --font-editor: 'Courier New', 'Monaco', monospace;
+}
+.markdown-source-view.mod-cm6 .cm-content {
+    max-width: 100%;                   /* Layout livre para expansão mental */
+    padding: 3rem;
+    line-height: 1.5;
+}

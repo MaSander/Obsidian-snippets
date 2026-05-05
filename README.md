@@ -40,3 +40,18 @@ Este repositório segue os princípios descritos no arquivo [PSICOLOGIA_VISUAL.m
 ### 3. O Alquimista (alquimista.css)
 - **Foco:** Transmutação Criativa.
 - **Estilo:** Fundo roxo profundo com tipografia em dourado. Usa Serif para títulos e Mono para o corpo, criando um contraste entre a autoridade das ideias e a crueza do rascunho.
+### 4. Atenção Plena (atencao-plena.css)
+- **Foco:** Concentração total.
+- **Estilo:** Monoespaçada com paleta Deep Navy.
+
+### 5. Reflexão Profunda (reflexao-profunda.css)
+- **Foco:** Peso histórico e literário.
+- **Estilo:** Serifada com paleta Charcoal.
+
+### 6. Calma e Escrita Livre (calma-escrita-livre.css)
+- **Foco:** Redução de ansiedade.
+- **Estilo:** Serifada com paleta Sépia.
+
+### 7. Honestidade Crua (honestidade-crua.css)
+- **Foco:** Verdade bruta sem filtros.
+- **Estilo:** Monoespaçada com paleta Terminal Green.
